@@ -1,0 +1,14 @@
+kb_theme.settings:
+  type: theme_settings
+  label: "KbTheme settings"
+  mapping:
+    scheme:
+      type: string
+      label: Color scheme
+      constraints:
+        Choice:
+          # @see kb_theme_form_system_theme_settings_alter()
+          - vanilla-light
+          - vanilla-dark
+          - byte-light
+          - byte-dark
